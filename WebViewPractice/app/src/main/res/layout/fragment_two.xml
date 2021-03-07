@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="75dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:text="Hola"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView1"
+                android:layout_centerInParent="true"
+                android:text="Привет"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView2"
+                android:layout_centerInParent="true"
+                android:text="Hey"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView3"
+                android:layout_centerInParent="true"
+                android:text="Hei"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView4"
+                android:layout_centerInParent="true"
+                android:text="Salam"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView5"
+                android:layout_centerInParent="true"
+                android:text="Përshëndetje"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView6"
+                android:layout_centerInParent="true"
+                android:text="مرحبا"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView7"
+                android:layout_centerInParent="true"
+                android:text="прывітанне"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView8"
+                android:layout_centerInParent="true"
+                android:text="Здравейте"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView9"
+                android:layout_centerInParent="true"
+                android:text="გამარჯობა"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
